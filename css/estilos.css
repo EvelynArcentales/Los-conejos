@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.4em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #e4dcdc;
+}
+
+
+
+nav li{
+    margin-right: 45px;
+    margin-top: 15px;
+}
+
+.logo{
+    width: 15px;
+    margin-left: 45px;
+}
+
+/* --------ESTILOS ESTRUCTURALES---------- */
+
+.anchoMaximo{
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 0 ;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.ancho50{
+    flex-basis: 50%;
+}
+
+.lineaHorizontal{
+    border: 1px solid rgb(248, 246, 246);
+}
+
+.navegacionPrincipal{
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+ .cabeceraPrincipal{
+    background: url(../imagenes/conejo-cabecera.jpg)top center /cover;
+   height: 600px;
+} 
+
+ h1{
+    font-size: 2em;
+    font-family: 700;
+    color: rgb(243, 182, 12);
+    line-height: 1.2em;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.encabezado h2 {
+   text-align: center;
+   font-weight: 700;
+   font-size: 1.5em;
+   color: rgb(26, 25, 25);
+   
+}
+
+.encabezado p{
+    margin-left: 45px;
+    margin-right: 45px;
+   text-align: center;
+   font-weight: 400;
+    color: rgb(22, 22, 22);
+    font-size: 1.3em;
+}
+
+.cuidado{
+    background: url(../imagenes/dia-internacional-conejo.jpg.png) right/cover;
+     height: 500px;
+}
+
+.texto h2{
+    color: beige;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 1.2em;
+   
+}
+
+.texto p{
+    color: beige;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+
+
+
+.lineaHorizontal1{
+    border: 3px solid rgb(223, 229, 230);
+}
+
+.claves img{
+    width: 300px;
+    margin-left: 300px;
+}
+
+
+.recomendaciones ul{
+  list-style-type: square ;
+  color: rgb(243, 182, 12);
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.recomendaciones a{
+   color: rgb(31, 30, 28); 
+}
+
+.recomendaciones h2{
+    margin-top: 45px;
+    color: rgb(32, 32, 30);
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.89);
+    padding: 40px;
+}
+
+footer p{
+    color: #e4dcdc;
+    text-align: center;
+}

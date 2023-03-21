@@ -1,0 +1,14 @@
+.arte img{
+  width: 500px;
+  margin-left: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.comentario  p{
+   
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 80px;
+    margin-right: 25px;
+}

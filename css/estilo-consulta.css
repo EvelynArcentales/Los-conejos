@@ -1,0 +1,74 @@
+.consultas p, h2{
+    text-align: center;
+
+}
+
+.consultas p{
+    font-size: 1.5em;
+}
+
+.section1{
+    background: url(../imagenes/fondo-conejo.jpg)bottom center/cover;
+    height: 500px;
+}
+
+.section1.flex{
+    align-items: center;
+ }
+
+
+
+ .section1.filaFlex{
+    justify-content: center;
+ }
+
+
+
+#nombre-user{
+    color: black;
+    border: 1px solid;
+    border-radius: 2px 2px 2px 2px;
+    margin-top: 15px;
+    margin-left: 95px;
+    background: rgba(247, 247, 245, 0.3);
+    padding: 10px;
+
+}
+.nombre{
+    color: black;
+}
+
+
+#consulta-user{
+    border: 1px solid;
+    border-radius: 2px 2px 2px 2px;
+    margin-left: 95px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background: rgba(247, 247, 245, 0.3);
+}
+
+#aceptar-clausulas {
+    color: rgb(14, 57, 95);
+    margin-left: 95px;
+   
+
+}
+
+.condiciones{
+    color: aliceblue;
+}
+
+ 
+
+ .rendimiento.ancho50 h2{
+    margin-top: 20px;
+
+ }
+
+ .enviar{
+    background: rgba(43, 20, 170, 0.3);
+    margin-left: 95px;
+    padding: 10px ;
+    color: rgb(247, 243, 243);
+ }

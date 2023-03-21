@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto de nuestra web los conejos </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-arte.css">
+    <link rel="stylesheet" href="css/estilo-consulta.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabeceraPrincipal">
+        <nav class="navegacionPrincipal    flex">
+            <!-- logo -->
+            <div class="logo">
+                <img src="imagenes/logo-conejo1.jpg"  width="70px" alt="logo desmosatrativo de conejo">
+            </div>
+          
+            <!-- enlaces -->
+
+           <div class="enlaces">
+               <ul  class="flex">
+                   <li>
+                      <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                      <a href="el-arte-de-los-conejos.html">EL ARTE EN LOS CONEJOS</a>
+                    </li>
+                    <li>
+                      <a href="contacto.html">CONTACTO</a>
+                    </li>
+               </ul>
+           </div>
+        </nav>
+         <!-- linea decorativa -->
+         <div class="lineaHorizontal"></div>
+        <div>
+            <h1>EL MARAVILLOSO MUNDO  <br> DE LOS CONEJOS</h1>
+        </div>
+       
+    </header>
+    
+    <main>
+        <div class="consultas">
+            <h2>CONSULTAS</h2>
+        
+            <p>Si deseas facilitarnos información de algo que te  gustaría publicar en nuestra web, como anécdotas o información de interes escribenos en el siguiente formulario .</p>
+            
+        </div>
+
+       <section class="section1  flex">
+       
+            
+            <div class="rendimiento  ancho50">
+                <form action="procesarForm.php" autocomplete="off" method="post" novalidate  id="form-contacto" enctype="multipart/form-data" name="peticion-datos" >
+     
+     
+                 <!-- nombre -->
+                 <div class="campoFormulario   ">
+                    
+                     <input type="text" name="nombre-usuario" id="nombre-user"  class="nombre" placeholder="Tu nombre" autofocus autocomplete="off"  >
+                 </div>  
+                 <!-- consulta -->
+                 <div class="campoFormulario  Comentarios">
+                   
+                    <textarea name="consulta" id="consulta-user" cols="30" rows="10"  placeholder="Comparte tu información" ></textarea>
+                </div>
+
+                <!-- aceptar condiciones -->
+               <div class="campoFormulario   condiciones">
+                    <input type="checkbox" name="clausulas"  id="aceptar-clausulas" >
+                     <label  for="aceptar-clausulas">Acepto la <a href="#">Política de Privacidad </a>  </label>
+
+                </div>
+                <!-- enviar formulario -->
+                <div class="campoFormulario  " >
+                    <input type="submit" class="enviar" value="Enviar información">
+                 
+                     </div>
+
+        
+
+   
+       </section>
+    </main>
+
+    <footer >
+        <p>&copy; El maravilloso mundo de los conejos. <span>Todos los derechos reservados</span></p>
+     </footer>
+</body>
+</html>
