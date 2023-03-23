@@ -144,3 +144,35 @@ footer p{
     color: #e4dcdc;
     text-align: center;
 }
+
+
+/* ------------- CSS de experiencias------------------ */
+
+
+
+.botonExperiencia{
+    width: 40%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px; 
+    background: rgb(243, 182, 12);
+}
+
+
+
+.botonExperiencia a{
+    color: #000;
+}
+
+.arte.experiencia img{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.arte.experiencia{
+    text-align: center;
+}
