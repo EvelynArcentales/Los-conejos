@@ -176,3 +176,29 @@ footer p{
 .arte.experiencia{
     text-align: center;
 }
+
+.comentario.texto1 p {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-right: 25px;
+}
+
+.arte.fotoExperiencia1{
+    text-align: center;
+}
+
+.botonExperiencia1 {
+    width: 40%;
+    padding: 10px;
+    margin-left: 0;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(243, 182, 12);
+}
+
+.botonExperiencia1 a{
+    color: #000;
+}
+
