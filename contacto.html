@@ -66,24 +66,24 @@
                  <!-- nombre -->
                  <div class="campoFormulario   ">
                     
-                     <input type="text" name="nombre-usuario" id="nombre-user"  class="nombre" placeholder="Tu nombre" autofocus autocomplete="off"  >
+                     *<input type="text" name="nombre-usuario" id="nombre-user"  class="nombre" placeholder="Tu nombre" autofocus autocomplete="off" required>
                  </div>  
                  <!-- consulta -->
                  <div class="campoFormulario  Comentarios">
                    
-                    <textarea name="consulta" id="consulta-user" cols="30" rows="10"  placeholder="Comparte tu información" ></textarea>
+                    *<textarea name="consulta" id="consulta-user" cols="30" rows="10"  placeholder="Comparte tu información" required></textarea>
                 </div>
 
                 <!-- adjuntar archivos -->
                 <div class="campoFormulario textArchivos">
-                    <label  for="formFile" for="archivo-user">Manda tus imágenes</label><br>
-                    <input type="file" name="archivosubido">
+                    <label  for="formFile" for="archivo-user">* Manda tus imágenes</label><br>
+                    <input type="file" name="archivosubido" required>
                 </div>
 
                 <!-- aceptar condiciones -->
                <div class="campoFormulario   condiciones">
-                    <input type="checkbox" name="clausulas"  id="aceptar-clausulas" >
-                     <label  for="aceptar-clausulas">Acepto la <a href="#">Política de Privacidad </a>  </label>
+                    <input type="checkbox" name="clausulas"  id="aceptar-clausulas" required>
+                     <label  for="aceptar-clausulas">* Acepto la <a href="#">Política de Privacidad </a>  </label>
 
                 </div>
                 <!-- enviar formulario -->
